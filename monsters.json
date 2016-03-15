@@ -18,7 +18,7 @@ Monsters = {
 			"Cane"
 		],
 		Magic : {
-			School : Shamanic,
+			School : "Shamanic",
 			Spells : 3
 		}
 	},

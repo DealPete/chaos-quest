@@ -12,7 +12,7 @@ Magic = {
 			Time: "2 turns"
 		},
 		"Pass Wall" : {
-			Effect: "Can pass walls until end of turn."
+			Effect: "Can pass walls until end of turn.",
 			Int: 5,
 			Time: 0
 		},
