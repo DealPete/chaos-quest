@@ -25,10 +25,10 @@ Classes = {
 			]
 	},
 	Wizard : {
-		HP : 10
-		Str : 2
-		Int : 6
-		Move : 6
+		HP : 10,
+		Str : 2,
+		Int : 6,
+		Move : 6,
 		Equipment : [
 			"Staff"
 			],
@@ -52,4 +52,4 @@ Classes = {
 			"Hiding"
 		]
 	}
-},
+}
