@@ -1,0 +1,92 @@
+Monsters = {
+	Goblin : {
+		HP : 1,
+		Str : 4,
+		Int : 2,
+		Move : 8,
+		Equipment: [
+			"Short Sword",
+			"Leather Armor"
+		]
+	},
+	"Goblin Shaman" : {
+		HP : 1,
+		Str : 1,
+		Int : 3,
+		Move : 7,
+		Equipment: [
+			"Cane"
+		],
+		Magic : {
+			School : Shamanic,
+			Spells : 3
+		}
+	},
+	Ogre : {
+		HP : 6,
+		Str : 10,
+		Int : 2,
+		Move : 6,
+		Equipment: [
+			"Giant Club"
+		]
+	},
+	Ooze : {
+		HP : 1,
+		Def : 8,
+		Move : 2,
+		Abilities: [
+			"Eat Equipment"
+		]
+	},
+	Orc : {
+		HP : 2,
+		Str : 5,
+		Int : 2,
+		Move : 6,
+		Equipment: [
+			"Axe",
+			"Chain Mail"
+		]
+	},
+	Skeleton : {
+		HP : 1,
+		Str : 4,
+		Def : {
+			Piercing : 7,
+			Slashing : 7,
+			},
+		Move : 6,
+		Equipment: [
+			"Sword"
+		],
+	},
+	Spider : {
+		HP : 1,
+		Str : 2,
+		Int : 1,
+		Move : 7,
+		Abilities: [
+			"Poisonous Bite"
+			]
+	},
+	Snake : {
+		HP : 1,
+		Str : 2,
+		Int : 1,
+		Move : 4,
+		Abilities: [
+			"Hide",
+			"Constrict"
+			]
+	},
+	"Carrior Crawler" : {
+		HP : 1,
+		Str : 1,
+		Int : 1,
+		Move : 3,
+		Abilities: [
+			"Paralytic Bite"
+			]
+	}
+}

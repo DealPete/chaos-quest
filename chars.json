@@ -1,0 +1,55 @@
+Classes = {
+	Archer : {
+		HP : 21,
+		Str : 4,
+		Int : 3,
+		Move : 6,
+		Equipment : [
+			"Short Bow",
+			"Leather Armour",
+			"Dagger"
+		],
+		Abilities: [
+			"Aim"
+		]
+	},
+	Warrior : {
+		HP : 20,
+		Str : 7,
+		Int : 3,
+		Move : 6,
+		Equipment : [ 
+			"Longsword",
+			"Chain Mail",
+			"Iron Shield"
+			]
+	},
+	Wizard : {
+		HP : 10
+		Str : 2
+		Int : 6
+		Move : 6
+		Equipment : [
+			"Staff"
+			],
+		Magic : {
+			School : "Wizardry",
+			Spells : 5
+		}
+	},
+	Thief : {
+		HP : 15,
+		Str : 4,
+		Int : 4,
+		Move : 8,
+		Equipment: [
+			"Dagger",
+			"Leather Armour"
+			],
+		Abilities: [
+			"Lockpicking",
+			"Backstabbing",
+			"Hiding"
+		]
+	}
+},

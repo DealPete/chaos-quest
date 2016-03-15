@@ -1,0 +1,55 @@
+Items = {
+	Weapons: {
+		"Cane" : {
+			Type: "Crushing",
+			Str: 1,
+			Time: 2
+		},
+		"Dagger" : {
+			Type: "Slashing",
+			Str: 2,
+			Time: 1
+		},
+		"Longsword" : {
+			Type: "Slashing",
+			Str: 7,
+			Time: 3
+		},
+		"Short Bow" : {
+			Type: "Piercing",
+			Str: 3,
+			Range : 10,
+			Time : 5
+			
+		},
+		"Short Sword" : {
+			Type: "Slashing",
+			Str: 4,
+			Time: 2
+		},
+		"Staff" : {
+			Type: "Crushing",
+			Str: 2,
+			Time: 2
+		},
+		"Two-handed Sword" : {
+			Type: "Slashing",
+			Str: 7,
+			Time: 3
+		}
+	},
+	Armour: {
+		"Leather Armour" : {
+			Str: 3,
+			Defense: 4
+		},
+		"Chain Mail" : {
+			Str: 5,
+			Defense: 5
+		},
+		"Iron Shield" : {
+			Str: 5,
+			Defense: 1
+		}
+	}
+	
