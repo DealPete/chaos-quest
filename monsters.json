@@ -1,4 +1,4 @@
-Monsters = {
+Monsters = [
 	Goblin : {
 		HP : 1,
 		Str : 4,
@@ -89,4 +89,4 @@ Monsters = {
 			"Paralytic Bite"
 			]
 	}
-}
+]

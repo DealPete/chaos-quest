@@ -1,4 +1,4 @@
-Items = {
+Items = [
 	Weapons: {
 		"Cane" : {
 			Type: "Crushing",
@@ -52,4 +52,4 @@ Items = {
 			Defense: 1
 		}
 	}
-}	
+]	
