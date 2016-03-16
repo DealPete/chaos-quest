@@ -1,4 +1,4 @@
-Magic = {
+Magic = [
 	Wizardry: {
 		"Magic Arrow" : {
 			Effect: "Attack using Mind as Str",
@@ -42,4 +42,4 @@ Magic = {
 			Time: "1 turn"
 		}
 	}
-}
+]

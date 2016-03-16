@@ -1,4 +1,4 @@
-Classes = {
+Classes = [
 	Archer : {
 		HP : 21,
 		Str : 4,
@@ -52,4 +52,4 @@ Classes = {
 			"Hiding"
 		]
 	}
-}
+]
