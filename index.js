@@ -1,1 +1,1 @@
-console.log(Classes);
+console.log(Classes, Items, Magic, Monsters);
