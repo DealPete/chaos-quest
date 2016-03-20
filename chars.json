@@ -1,5 +1,6 @@
 Classes = [
-	Archer : {
+	{
+		Name: "Archer",
 		HP : 21,
 		Str : 4,
 		Int : 3,
@@ -13,7 +14,8 @@ Classes = [
 			"Aim"
 		]
 	},
-	Warrior : {
+	{
+		Name: "Warrior",
 		HP : 20,
 		Str : 7,
 		Int : 3,
@@ -24,7 +26,8 @@ Classes = [
 			"Iron Shield"
 			]
 	},
-	Wizard : {
+	{
+		Name: "Wizard",
 		HP : 10,
 		Str : 2,
 		Int : 6,
@@ -37,7 +40,8 @@ Classes = [
 			Spells : 5
 		}
 	},
-	Thief : {
+	{
+		Name: "Thief",
 		HP : 15,
 		Str : 4,
 		Int : 4,

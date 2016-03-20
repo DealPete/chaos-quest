@@ -1,55 +1,65 @@
-Items = [
-	Weapons: {
-		"Cane" : {
+Items = {
+	Weapons: [
+		{
+			Name: "Cane",
 			Type: "Crushing",
 			Str: 1,
 			Time: 2
 		},
-		"Dagger" : {
+		{
+			Name: "Dagger",
 			Type: "Slashing",
 			Str: 2,
 			Time: 1
 		},
-		"Longsword" : {
+		{
+			Name: "Longsword",
 			Type: "Slashing",
 			Str: 7,
 			Time: 3
 		},
-		"Short Bow" : {
+		{
+			Name: "Short Bow",
 			Type: "Piercing",
 			Str: 3,
 			Range : 10,
 			Time : 5
 			
 		},
-		"Short Sword" : {
+		{
+			Name: "Short Sword",
 			Type: "Slashing",
 			Str: 4,
 			Time: 2
 		},
-		"Staff" : {
+		{
+			Name: "Staff",
 			Type: "Crushing",
 			Str: 2,
 			Time: 2
 		},
-		"Two-handed Sword" : {
+		{
+			Name: "Two-handed Sword",
 			Type: "Slashing",
 			Str: 7,
 			Time: 3
 		}
-	},
-	Armour: {
-		"Leather Armour" : {
+	],
+	Armour: [
+		{
+			Name: "Leather Armour",
 			Str: 3,
 			Defense: 4
 		},
-		"Chain Mail" : {
+		{
+			Name: "Chain Mail",
 			Str: 5,
 			Defense: 5
 		},
-		"Iron Shield" : {
+		{
+			Name: "Iron Shield",
 			Str: 5,
 			Defense: 1
 		}
-	}
-]	
+	]
+}	

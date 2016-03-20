@@ -1,29 +1,34 @@
-Magic = [
-	Wizardry: {
-		"Magic Arrow" : {
+Magic = {
+	Wizardry: [
+		{
+			Name: "Magic Arrow",
 			Effect: "Attack using Mind as Str",
 			Int: 1,
 			Type: "Piercing",
 			Time: 1
 		},
-		"Identify" : { 
+		{
+			Name: "Identify",
 			Effect: "Divine the true nature of your equipment.",
 			Int: 1,
 			Time: "2 turns"
 		},
-		"Pass Wall" : {
+		{
+			Name: "Pass Wall",
 			Effect: "Can pass walls until end of turn.",
 			Int: 5,
 			Time: 0
 		},
-		"Sleep" : {
+		{
+			Name: "Sleep",
 			Effect: "Put Enemy to Sleep",
 			Save: "Mindroll with caster",
 			Time: 4
 		}
-	},
-	Shamanic: {
-		"Animate Table" : {
+	],
+	Shamanic: [
+		{
+			Name: "Animate Table",
 			Effect: "Table within range becomes companion",
 			Int: 3,
 			Range: 5,
@@ -35,11 +40,12 @@ Magic = [
 				Move : 2
 			}
 		},
-		"Create Ooze" : {
+		{
+			Name: "Create Ooze",
 			Effect: "Create 'Ooze' companion",
 			Radius: 1,
 			Int: 3,
 			Time: "1 turn"
 		}
-	}
-]
+	]
+}
