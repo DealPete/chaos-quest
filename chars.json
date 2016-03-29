@@ -1,7 +1,7 @@
 Classes = [
 	{
 		Name: "Archer",
-		HP : 21,
+		HP : 20,
 		Str : 4,
 		Int : 3,
 		Move : 6,
@@ -16,7 +16,7 @@ Classes = [
 	},
 	{
 		Name: "Warrior",
-		HP : 20,
+		HP : 25,
 		Str : 7,
 		Int : 3,
 		Move : 6,

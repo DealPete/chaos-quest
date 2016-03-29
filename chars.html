@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<link href="main.css" rel="stylesheet"></link>
+	</head>
+	
+	<div ng-app="chaos-quest" ng-controller="charsCtrl">
+		<table width=100%>
+			<tr> 
+				<td><b><u>Name</b></u></td>
+				<td><b><u>HP</b></u></td>
+				<td><b><u>Str</b></u></td>
+				<td><b><u>Int</b></u></td>
+				<td><b><u>Move</b></u></td>
+				<td><b><u>Equipment</b></u></td>
+				<td><b><u>Abilities</b></u></td>
+			</tr>
+			<tr ng-repeat="char in classes">
+				<td>{{char.Name}}</td>
+				<td>{{char.HP}}</td>
+				<td>{{char.Str}}</td>
+				<td>{{char.Int}}</td>
+				<td>{{char.Move}}</td>
+				<td>
+					<span ng-repeat="weapon in char.Equipment">
+						{{weapon}}
+					</span>
+				</td>
+				<td>
+					<span ng-repeat="ability in char.Abilities">
+						{{ability}}
+					</span>
+				</td>
+		</table>
+		<br>
+		<h2>Aim</h2>
+		<p>Allows the archer to aim.</p>
+	</div>
+
+	<body>
+		<script src="chars.json"></script>
+		<script src="CQApp.js"></script>
+		<script src="chars.js"></script>
+	</body>
+</html>
