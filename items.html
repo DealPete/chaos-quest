@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+		<link href="main.css" rel="stylesheet"></link>
+	</head>
+	
+	<div ng-app="chaos-quest" ng-controller="itemsCtrl">
+		<h3>Weapons</h3>
+		<table width=100%>
+			<tr> 
+				<td><b><u>Name</b></u></td>
+				<td><b><u>Type</b></u></td>
+				<td><b><u>Str</b></u></td>
+				<td><b><u>Range</b></u></td>
+			</tr>
+			<tr ng-repeat="weapon in items.Weapons">
+				<td>{{weapon.Name}}</td>
+				<td>{{weapon.Type}}</td>
+				<td>{{weapon.Str}}</td>
+				<td>{{weapon.Range}}</td>
+			</tr>
+		</table>
+		<br>
+		<h3>Armour</h3>
+		<table width=100%>
+			<tr> 
+				<td><b><u>Name</b></u></td>
+				<td><b><u>Defense</b></u></td>
+				<td><b><u>Str</b></u></td>
+			</tr>
+			<tr ng-repeat="armour in items.Armour">
+				<td>{{armour.Name}}</td>
+				<td>{{armour.Defense}}</td>
+				<td>{{armour.Str}}</td>
+			</tr>
+		</table>
+	</div>
+
+	<body>
+		<script src="items.json"></script>
+		<script src="CQApp.js"></script>
+		<script src="items.js"></script>
+	</body>
+</html>

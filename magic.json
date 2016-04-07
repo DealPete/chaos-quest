@@ -1,51 +1,58 @@
-Magic = {
-	Wizardry: [
-		{
-			Name: "Magic Arrow",
-			Effect: "Attack using Mind as Str",
-			Int: 1,
-			Type: "Piercing",
-			Time: 1
-		},
-		{
-			Name: "Identify",
-			Effect: "Divine the true nature of your equipment.",
-			Int: 1,
-			Time: "2 turns"
-		},
-		{
-			Name: "Pass Wall",
-			Effect: "Can pass walls until end of turn.",
-			Int: 5,
-			Time: 0
-		},
-		{
-			Name: "Sleep",
-			Effect: "Put Enemy to Sleep",
-			Save: "Mindroll with caster",
-			Time: 4
-		}
-	],
-	Shamanic: [
-		{
-			Name: "Animate Table",
-			Effect: "Table within range becomes companion",
-			Int: 3,
-			Range: 5,
-			Time: "1 turn",
-			Table: {
-				HP : 10,
-				Str : 1,
-				Int : 0,
-				Move : 2
+Magic = [
+	{
+		"Name": "Wizardry",
+		"Spells": [
+			{
+				Name: "Magic Arrow",
+				Summary: "Fire magical arrow at enemy, using Mind in place of Strength",
+				Effect: "
+				Int: 1,
+				Type: "Piercing",
+				Time: "1 action"
+			},
+			{
+				Name: "Identify",
+				Summary: "Divine the true nature of your equipment.",
+				Int: 1,
+				Time: "2 turns"
+			},
+			{
+				Name: "Pass Wall",
+				Summary: "Can pass walls until end of turn.",
+				Int: 5,
+				Time: "1 turn" 
+			},
+			{
+				Name: "Sleep",
+				Summary: "Put Enemy to Sleep",
+				Save: "Mindroll with caster",
+				Time: "4 actions"
 			}
-		},
-		{
-			Name: "Create Ooze",
-			Effect: "Create 'Ooze' companion",
-			Radius: 1,
-			Int: 3,
-			Time: "1 turn"
-		}
-	]
-}
+		],
+	},
+	{
+		"Name": "Shamanic",
+		"Spells": [
+			{
+				Name: "Animate Table",
+				Summary: "Table within range becomes companion",
+				Int: 3,
+				Range: 5,
+				Time: "1 turn",
+				Table: {
+					HP : 10,
+					Str : 1,
+					Int : 0,
+					Move : 2
+				}
+			},
+			{
+				Name: "Create Ooze",
+				Summary: "Create 'Ooze' companion",
+				Range: 1,
+				Int: 3,
+				Time: "1 turn"
+			}
+		]
+	}
+]

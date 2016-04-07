@@ -4,7 +4,7 @@
 		<link href="main.css" rel="stylesheet"></link>
 	</head>
 	
-	<div ng-app="chaos-quest" ng-controller="charsCtrl">
+	<div ng-app="chaos-quest" ng-controller="monstersCtrl">
 		<table width=100%>
 			<tr> 
 				<td><b><u>Name</b></u></td>
@@ -15,32 +15,30 @@
 				<td><b><u>Equipment</b></u></td>
 				<td><b><u>Abilities</b></u></td>
 			</tr>
-			<tr ng-repeat="char in classes">
-				<td>{{char.Name}}</td>
-				<td>{{char.HP}}</td>
-				<td>{{char.Str}}</td>
-				<td>{{char.Int}}</td>
-				<td>{{char.Move}}</td>
+			<tr ng-repeat="monster in monsters">
+				<td>{{monster.Name}}</td>
+				<td>{{monster.HP}}</td>
+				<td>{{monster.Str}}</td>
+				<td>{{monster.Int}}</td>
+				<td>{{monster.Move}}</td>
 				<td>
-					<span ng-repeat="weapon in char.Equipment">
-						{{weapon}}
+					<span ng-repeat="item in monster.Equipment">
+						{{item}}
 					</span>
 				</td>
 				<td>
-					<span ng-repeat="ability in char.Abilities">
+					<span ng-repeat="ability in monster.Abilities">
 						{{ability}}
 					</span>
 				</td>
 			</tr>
 		</table>
 		<br>
-		<h2>Aim</h2>
-		<p>Allows the archer to aim.</p>
 	</div>
 
 	<body>
-		<script src="chars.json"></script>
+		<script src="monsters.json"></script>
 		<script src="CQApp.js"></script>
-		<script src="chars.js"></script>
+		<script src="monsters.js"></script>
 	</body>
 </html>
